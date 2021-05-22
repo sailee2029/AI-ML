@@ -1,6 +1,6 @@
 #implementation of AND gate using Hebbian Learning Rule
 
-X=[[-1,-1,1],[-1,1,1],[1,-1,1],[1,1,1]] #its in a form of [x1,x2, b]   i.e dataFrame of x1,x2 and bias       <<<<Code by SahilGaonkar>>>>
+X=[[-1,-1,1],[-1,1,1],[1,-1,1],[1,1,1]] #its in a form of [x1,x2, b]   i.e dataFrame of x1,x2 and bias     
 Y=[-1,-1,-1,1] #Output required
 
 def NetValue(W): #This function takes final weights and bias from WeightBiasMat Matrix
